@@ -1,6 +1,6 @@
 var twilioPhone = require('./lib/twilio-phone')(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
 
-twilioPhone.purchasePhoneNumber({nearPhoneNumber: '+16196210102'})
+twilioPhone.purchasePhoneNumber({nearPhoneNumber: '+12126210102'})
   .then(function(purchasedNumber) {
     console.log('Yeay - I am proud owner of ' + purchasedNumber);
   })
