@@ -1,0 +1,16 @@
+{
+  "name": "twilio-phone-purchase",
+  "version": "0.0.1",
+  "description": "Purchase a phone number using Twilio",
+  "main": "lib/twilio.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Tudor Potecaru",
+  "license": "MIT",
+  "dependencies": {
+    "phone": "^1.0.4",
+    "q": "^1.4.1",
+    "twilio": "^2.2.1"
+  }
+}
